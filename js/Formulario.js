@@ -3,8 +3,6 @@ var video = VideoSystem.getInstance();
 var arrayRecursos = video.resources;
 var arraySeason = video.seasons;
 
-document.cookie = "username=prueba; password=prueba; expires=Thu, 02 Feb 2068 10:20:00 GMT";
-
 function comprobarCookie(nombreValor) {
     var nombre = nombreValor + "=";
     var cookieArray = document.cookie.split(';');
